@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_252260_needit.stakeholder_user" name="x_252260_needit.stakeholder_user">ed5996b4db242300082afe1b6896192b</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>hao</sys_created_by>
+        <sys_created_on>2018-09-12 10:12:55</sys_created_on>
+        <sys_id>ad59d638db242300082afe1b689619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ed5996b4db242300082afe1b6896192b</sys_name>
+        <sys_package display_value="NeedIt" source="x_252260_needit">e181d6f8dba02300082afe1b68961905</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">e181d6f8dba02300082afe1b68961905</sys_scope>
+        <sys_update_name>sys_embedded_help_role_ad59d638db242300082afe1b689619e5</sys_update_name>
+        <sys_updated_by>hao</sys_updated_by>
+        <sys_updated_on>2018-09-12 10:12:55</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

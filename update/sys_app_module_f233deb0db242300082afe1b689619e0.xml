@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Tasks">b233deb0db242300082afe1b689619de</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Tasks</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_252260_needit_tasks</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_252260_needit.tasks_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>hao</sys_created_by>
+        <sys_created_on>2018-09-12 09:46:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f233deb0db242300082afe1b689619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_252260_needit">e181d6f8dba02300082afe1b68961905</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">e181d6f8dba02300082afe1b68961905</sys_scope>
+        <sys_update_name>sys_app_module_f233deb0db242300082afe1b689619e0</sys_update_name>
+        <sys_updated_by>hao</sys_updated_by>
+        <sys_updated_on>2018-09-12 09:46:15</sys_updated_on>
+        <timeline_page/>
+        <title>Tasks</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

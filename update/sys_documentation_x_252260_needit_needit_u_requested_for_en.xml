@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_requested_for" label="Requested for" language="en" table="x_252260_needit_needit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_requested_for</element>
+            <help/>
+            <hint/>
+            <label>Requested for</label>
+            <language>en</language>
+            <name>x_252260_needit_needit</name>
+            <plural>Requested for</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-17 04:16:27</sys_created_on>
+            <sys_id>a0b77a12db602300082afe1b68961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Requested for</sys_name>
+            <sys_package display_value="NeedIt" source="x_252260_needit">e181d6f8dba02300082afe1b68961905</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">e181d6f8dba02300082afe1b68961905</sys_scope>
+            <sys_update_name>sys_documentation_x_252260_needit_needit_u_requested_for_en</sys_update_name>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-17 04:16:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

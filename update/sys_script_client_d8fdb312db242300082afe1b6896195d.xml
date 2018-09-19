@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Only display What needed choices that match the Request type value.</description>
+        <field>u_request_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt Request Type Options</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	
+	var whatneeded = g_form.getValue("u_what_needed");
+    var req_type = g_form.getElement("u_request_type");
+	var options = req_type.options;
+	var _options = [];
+	
+	for(var i = 0; i < options.length; i++) {
+		var add_options = [];
+		for (var j = 0; j < 2; j++) {
+			add_options.push({"name": options[i].text + " " + (j + 1), "value": options[i].value + (j + 1)});
+		}
+		add_options.push({"name": "Other", "value": "other"});
+		_options[options[i].value] = {"name": options[i].text, "value": options[i].value, "options": add_options};
+	}
+	
+	g_form.clearOptions("u_what_needed");
+	
+	var arr = _options[newValue];
+	for (var i = 0; i< arr.options.length; i++) {
+		g_form.addOption("u_what_needed", arr.options[i].value, arr.options[i].name);
+	}
+	
+	if (isLoading && !g_form.isNewRecord()){
+		g_form.setValue('u_what_needed', whatneeded);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>hao</sys_created_by>
+        <sys_created_on>2018-09-17 09:39:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d8fdb312db242300082afe1b6896195d</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>NeedIt Request Type Options</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_252260_needit">e181d6f8dba02300082afe1b68961905</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">e181d6f8dba02300082afe1b68961905</sys_scope>
+        <sys_update_name>sys_script_client_d8fdb312db242300082afe1b6896195d</sys_update_name>
+        <sys_updated_by>hao</sys_updated_by>
+        <sys_updated_on>2018-09-18 08:43:42</sys_updated_on>
+        <table>x_252260_needit_needit</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

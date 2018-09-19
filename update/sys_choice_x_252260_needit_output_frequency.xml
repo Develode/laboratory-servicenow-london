@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="frequency" table="x_252260_needit_output" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Daily</label>
+            <language>en</language>
+            <name>x_252260_needit_output</name>
+            <sequence/>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-12 10:05:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b8712f4db242300082afe1b68961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-12 10:05:21</sys_updated_on>
+            <value>daily</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Demand</label>
+            <language>en</language>
+            <name>x_252260_needit_output</name>
+            <sequence/>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-12 10:05:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41b75eb4db242300082afe1b689619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-12 10:05:57</sys_updated_on>
+            <value>demand</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Weekly</label>
+            <language>en</language>
+            <name>x_252260_needit_output</name>
+            <sequence/>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-12 10:05:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e39752b4db242300082afe1b689619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-12 10:05:33</sys_updated_on>
+            <value>weekly</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>frequency</element>
+            <name>x_252260_needit_output</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-12 10:05:21</sys_created_on>
+            <sys_id>a29796b4db242300082afe1b689619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>frequency</sys_name>
+            <sys_package display_value="NeedIt" source="x_252260_needit">e181d6f8dba02300082afe1b68961905</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">e181d6f8dba02300082afe1b68961905</sys_scope>
+            <sys_update_name>sys_choice_x_252260_needit_output_frequency</sys_update_name>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-12 10:05:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

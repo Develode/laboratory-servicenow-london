@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Input" max_length="40" name="x_252260_needit_input" type="collection">
+        <element label="Duplicate Data Okay?" max_length="40" name="can_duplicate" type="boolean"/>
+        <element choice="1" label="Data Format" max_length="40" name="data_format" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="Approved"/>
+                <element inactive_on_update="false" label="CSV" value="csv"/>
+                <element inactive_on_update="false" label="Excel" value="xls"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+            </choice>
+        </element>
+        <element choice="3" label="Data Source" mandatory="true" max_length="40" name="data_source" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approvals" value="approval"/>
+                <element inactive_on_update="false" label="Spreadsheet" value="sheet"/>
+                <element inactive_on_update="false" label="User input - form" value="form"/>
+                <element inactive_on_update="false" label="User input - Service Catalog" value="sc"/>
+            </choice>
+        </element>
+        <element choice="3" label="Frequency" mandatory="true" max_length="40" name="frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="As needed" value="needed"/>
+                <element inactive_on_update="false" label="Once" value="once"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

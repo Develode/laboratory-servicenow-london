@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="data_source" table="x_252260_needit_input" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>data_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approvals</label>
+            <language>en</language>
+            <name>x_252260_needit_input</name>
+            <sequence/>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-12 09:51:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df545234db242300082afe1b6896193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-12 09:51:20</sys_updated_on>
+            <value>approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>data_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>User input - form</label>
+            <language>en</language>
+            <name>x_252260_needit_input</name>
+            <sequence/>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-12 09:49:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ed3daf0db242300082afe1b6896197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-12 09:49:35</sys_updated_on>
+            <value>form</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>data_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>User input - Service Catalog</label>
+            <language>en</language>
+            <name>x_252260_needit_input</name>
+            <sequence/>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-12 09:51:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1449234db242300082afe1b68961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-12 09:51:04</sys_updated_on>
+            <value>sc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>data_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spreadsheet</label>
+            <language>en</language>
+            <name>x_252260_needit_input</name>
+            <sequence/>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-12 09:50:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a245234db242300082afe1b68961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-12 09:50:45</sys_updated_on>
+            <value>sheet</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>data_source</element>
+            <name>x_252260_needit_input</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-12 09:49:35</sys_created_on>
+            <sys_id>23f39af0db242300082afe1b68961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>data_source</sys_name>
+            <sys_package display_value="NeedIt" source="x_252260_needit">e181d6f8dba02300082afe1b68961905</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">e181d6f8dba02300082afe1b68961905</sys_scope>
+            <sys_update_name>sys_choice_x_252260_needit_input_data_source</sys_update_name>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-12 09:49:35</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

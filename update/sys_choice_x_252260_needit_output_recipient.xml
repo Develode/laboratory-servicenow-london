@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="recipient" table="x_252260_needit_output" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recipient</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Assigner</label>
+            <language>en</language>
+            <name>x_252260_needit_output</name>
+            <sequence/>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-12 10:07:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1f756f4db242300082afe1b6896196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-12 10:07:26</sys_updated_on>
+            <value>assigner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recipient</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CTO</label>
+            <language>en</language>
+            <name>x_252260_needit_output</name>
+            <sequence/>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-12 10:07:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>421896f4db242300082afe1b689619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-12 10:07:58</sys_updated_on>
+            <value>cto</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recipient</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Permission</label>
+            <language>en</language>
+            <name>x_252260_needit_output</name>
+            <sequence/>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-12 10:08:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d38d674db242300082afe1b68961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-12 10:08:25</sys_updated_on>
+            <value>permission</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>recipient</element>
+            <name>x_252260_needit_output</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-12 10:07:26</sys_created_on>
+            <sys_id>8918deb4db242300082afe1b68961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>recipient</sys_name>
+            <sys_package display_value="NeedIt" source="x_252260_needit">e181d6f8dba02300082afe1b68961905</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">e181d6f8dba02300082afe1b68961905</sys_scope>
+            <sys_update_name>sys_choice_x_252260_needit_output_recipient</sys_update_name>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-12 10:07:26</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

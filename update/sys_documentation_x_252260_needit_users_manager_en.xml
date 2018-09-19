@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="manager" label="Manager" language="en" table="x_252260_needit_users">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>manager</element>
+            <help/>
+            <hint/>
+            <label>Manager</label>
+            <language>en</language>
+            <name>x_252260_needit_users</name>
+            <plural>Managers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hao</sys_created_by>
+            <sys_created_on>2018-09-14 06:44:38</sys_created_on>
+            <sys_id>3ddcb311dbe02300082afe1b68961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Manager</sys_name>
+            <sys_package display_value="NeedIt" source="x_252260_needit">e181d6f8dba02300082afe1b68961905</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">e181d6f8dba02300082afe1b68961905</sys_scope>
+            <sys_update_name>sys_documentation_x_252260_needit_users_manager_en</sys_update_name>
+            <sys_updated_by>hao</sys_updated_by>
+            <sys_updated_on>2018-09-14 06:44:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
